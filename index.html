@@ -5,32 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
-    <header class="visually-hidden">
-        <nav>
-        <a href="/">
-        WebStudio
-        </a>
-        <ul class="list">
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Студия</a></li>
-            <li><a href="">Контакты</a></li>
-        </ul>
+    <header class="header">
+        <nav class="header-navigation">
+            <a href="/" class="link header-logo">
+                <span class="web-text">Web</span><span class="colortext">Studio</span>
+            </a>
+            <ul class="list header-list">
+                <li class="header-item"><a class="link header-link" href="#">Портфолио</a></li>
+                <li class="header-item"><a class="link header-link" href="#">Студия</a></li>
+                <li class="header-item"><a class="link header-link" href="#">Контакты</a></li>
+            </ul>
         </nav>
-        <ul class="list">
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list header-contacts">
+            <li><a class="link header-mailto" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
     <section class="main-banner">
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <h1 class="main-text">Эффективные решения для вашего бизнеса</h1>
+        <button class="main-button" type="button">Заказать услугу</button>
     </section>
-    <section>
-        <ul class="list">
+    <section class="description-wrapper">
+        <ul class="list description">
             <li>
                 <h3>Внимание к деталям</h3>
                 <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -49,16 +51,16 @@
             </li>
         </ul>
     </section>
-    <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul class="list">
+    <section class="what-we-do">
+        <h2 class="what-we-do-title">Чем мы занимаемся</h2>
+        <ul class="list gallery">
             <li><img src="./images/img2.jpeg" alt="Сидя за ПК держит в руках телефон" width="370" height="294" /></li>
             <li><img src="./images/img1.jpeg" alt="Работа за компьютером, набирает текст" width="370" height="294" /></li>
             <li><img src="./images/img3.jpeg" alt="Держит в руках планшет, выбирает цвет" width="370" height="294" /></li>
         </ul>
     </section>
     <!-- Наша команда -->
-    <section>
+    <section class="our-team">
         <h2>Наша команда</h2>
         <ul class="list">
             <li>
@@ -85,16 +87,16 @@
     </section>
     </main>
     <!-- Подвал -->
-    <footer>
-        <a href="/">
-            WebStudio
+    <footer class="footer">
+        <a class="link logo-footer" href="/">
+           <span class="web-text-footer">Web</span><span class="colortext-footer">Studio</span>
         </a>
         <!-- Секция подвала, контакты -->
         <address>
             <ul class="list">
-                <li><a href="" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li><a class="link address-line" href="" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
