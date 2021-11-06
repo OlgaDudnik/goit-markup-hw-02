@@ -11,21 +11,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
 </head>
 <body>
-    <header>
-        <!-- Навигация -->
-        <nav>
-            <a href="/" class="list">
-                WebStudio
+    <header class="header">
+        <nav class="header-navigation">
+            <a href="/" class="link header-logo">
+                <span class="web-text">Web</span><span class="colortext">Studio</span>
             </a>
-            <ul class="list">
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="list header-list">
+                <li class="header-item"><a class="link header-link" href="#">Портфолио</a></li>
+                <li class="header-item"><a class="link header-link" href="#">Студия</a></li>
+                <li class="header-item"><a class="link header-link" href="#">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list header-contacts">
+            <li><a class="link header-mailto" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
@@ -78,19 +77,18 @@
     </section>
     </main>
     <!-- Подвал -->
-    <footer>
-        <a href="/">
-            WebStudio
+    <footer class="footer">
+        <a class="link logo-footer" href="/">
+            <span class="web-text-footer">Web</span><span class="colortext-footer">Studio</span>
         </a>
         <!-- Секция подвала, контакты -->
         <address>
-            <ul>
-                <li><a href="" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <ul class="list">
+                <li><a class="link address-line" href="" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="link" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
-    
 </body>
 </html>
