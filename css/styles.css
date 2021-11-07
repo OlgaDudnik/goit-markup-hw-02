@@ -31,9 +31,6 @@ a:visited {
 }
 
 /* ----------------header---------------- */
-.footer {
-  background-color: var(--banner-color);
-}
 
 .header {
   display: flex;
@@ -219,13 +216,17 @@ a:visited {
 
 .our-team {
   height: 648px;
+  padding: 94px 0;
   background-color: var(--our-team-background-color);
 }
 
 .our-team > h2 {
+  font-weight: bold;
   text-align: center;
-  padding: 94px 0 50px 0;
-  margin: 0;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  margin: 0 auto 50px auto;
 }
 
 .our-team > ul {
@@ -247,12 +248,17 @@ a:visited {
 
 .our-team > ul > li > h3 {
   margin: 30px 0 10px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .our-team > ul > li > p {
   margin: 0;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
@@ -303,12 +309,18 @@ a.address-line:visited {
 }
 
 .filters button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
   border: none;
   margin-right: 8px;
   background: var(--our-team-background-color);
   border-radius: 4px;
   padding: 6px 22px;
   transition: 0.4s;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filters button:hover,
