@@ -272,6 +272,7 @@ a:visited {
 }
 
 .logo-footer {
+  font-family: "Raleway";
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -295,10 +296,20 @@ address a {
 
 .address-line {
   color: var(--main-title-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 a.address-line:visited {
   color: var(--main-title-color);
+}
+
+.address-mail,
+.address-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* ----------------PORTFOLIO---------------- */
